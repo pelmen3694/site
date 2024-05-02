@@ -1,0 +1,637 @@
+body {
+    background-color: black;
+    margin:0;
+    color:white;
+}
+.hcenter {
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color:white;
+    display:flex;
+    width: 100%;
+}
+h1 {
+    font-size: 400px;
+}
+h2{
+    font-size: 150px;
+}
+a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 50px 150px 50px 150px;
+    font-size: 50px;
+    text-align: center;
+}
+img {
+    height: 50vh;
+    width: 30vh;
+    z-index: 2  ;
+    border-radius: 100%;
+    width: 2000px;
+}
+.history {
+  font-size: 100px;
+  width: 50%;
+
+}
+.center{
+	text-align: center;
+	margin-top: 1000px;
+	width: 100vh;
+
+}
+
+.korobka{
+display: flex;
+height: 90vh;
+margin:0;
+width: 100%;
+align-items: center;
+justify-content: center;
+}
+.krug{
+
+    position: absolute;
+    color:black;
+    top:3100px;
+    width: 900px;
+    height: 900px;
+    right:-300px;
+    border-radius:100%;
+    background-color: black;
+    box-shadow: 50px 50px 50px 50px white;
+    rotate:180deg;
+}
+.link{
+
+    text-decoration: none;
+    margin:0 0 0 50px;
+    font-size:75px;
+    background-color: white;
+    color:black;
+    transition: transform 0.3s ease;
+}
+.navbar{
+    background-color: white ;
+    display: flex;
+    padding: 50px 0;
+    margin:0px;
+    position: fixed;
+
+align-items: center;
+width:100%;
+z-index: 7;
+}
+.krug1{
+    z-index: 1;
+    position: absolute;
+    color:black;
+    top:500px;
+    width: 900px;
+    height: 900px;
+    left:-500px; 
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 50px 50px 50px 50px white;
+    rotate:45deg;
+}
+.krug2{
+    z-index: -1;
+    position: absolute;
+    top:1000px;
+    width: 1750px;
+    height: 1750px;
+    left:4250px;
+    border-radius:100%;
+    background-color:white;
+
+
+}
+.myskills{
+    color:white;
+    display: flex;
+    height:50%;
+}
+.skills{
+    font-size: 75px;
+}
+
+
+.link:hover {
+    transform: scale(1.1); 
+}
+
+.aboutme{
+    height: 95%;
+}
+.narrator{
+    margin-right: 100px;
+    box-shadow: -50px -50px 200px 50px white ;
+}
+.myprojects{
+    height:100%;
+}
+.myprojects1{
+    color:white;
+    align-items: center;
+    justify-content: center;
+    font-size:100px;
+}
+.krug3{
+    z-index: 1;
+    position: absolute;
+    top:8700px;
+    width: -1px;
+    height: -1px;
+    left:4300px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug4{
+
+    position: absolute;
+    top:6800px;
+    width: 4000px;
+    height: 2000px;
+    right:-4300px;
+    background-color:none;
+    box-shadow: 200px 250px 500px 500px #4d1f75;
+    rotate:40deg;
+}
+.krug5{
+    z-index: 1;
+    position: absolute;
+    top:8600px;
+    width: -1px;
+    height: -1px;
+    left:4600px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug6{
+    z-index: 1;
+    position: absolute;
+    top:8500px;
+    width: -1px;
+    height: -1px;
+    left:4900px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug7{
+    z-index: 1;
+    position: absolute;
+    top:8400px;
+    width: -1px;
+    height: -1px;
+    left:5200px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug8{
+    z-index: 1;
+    position: absolute;
+    top:8300px;
+    width: -1px;
+    height: -1px;
+    left:5500px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug9
+{
+    z-index: 1;
+    position: absolute;
+    top:8800px;
+    width: -1px;
+    height: -1px;
+    left:4000px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 200px 45px white;}
+    .krug10
+{
+    z-index: 1;
+    position: absolute;
+    top:8900px;
+    width: -1px;
+    height: -1px;
+    left:3700px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 200px 45px white;}
+    .krug11
+{
+    z-index: 1;
+    position: absolute;
+    top:9000px;
+    width: -1px;
+    height: -1px;
+    left:3400px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 200px 45px white;}
+
+     .krug12{
+    z-index: 1;
+    position: absolute;
+    top:8500px;
+    width: -1px;
+    height: -1px;
+    left:5500px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    }
+
+     .krug13{
+    z-index: 1;
+    position: absolute;
+    top:8600px;
+    width: -1px;
+    height: -1px;
+    left:5200px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    }
+
+     .krug14{
+    z-index: 1;
+    position: absolute;
+    top:8700px;
+    width: -1px;
+    height: -1px;
+    left:4900px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    }
+
+     .krug15{
+    z-index: 1;
+    position: absolute;
+    top:8800px;
+    width: -1px;
+    height: -1px;
+    left:4600px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    }
+
+     .krug16{
+    z-index: 1;
+    position: absolute;
+    top:8900px;
+    width: -1px;
+    height: -1px;
+    left:4300px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    }
+
+     .krug17{
+    z-index: 1;
+    position: absolute;
+    top:9000px;
+    width: -1px;
+    height: -1px;
+    left:4000px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    } .krug18{
+    z-index: 1;
+    position: absolute;
+    top:9100px;
+    width: -1px;
+    height: -1px;
+    left:3700px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    } .krug19{
+    z-index: 1;
+    position: absolute;
+    top:9200px;
+    width: -1px;
+    height: -1px;
+    left:3400px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+    }
+.krug20{
+    z-index: 1;
+    position: absolute;
+    top:8700px;
+    width: -1px;
+    height: -1px;
+    left:5500px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug21{
+    z-index: 1;
+    position: absolute;
+    top:8800px;
+    width: -1px;
+    height: -1px;
+    left:5200px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug22{
+    z-index: 1;
+    position: absolute;
+    top:8900px;
+    width: -1px;
+    height: -1px;
+    left:4900px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug23{
+    z-index: 1;
+    position: absolute;
+    top:9000px;
+    width: -1px;
+    height: -1px;
+    left:4600px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug24{
+    z-index: 1;
+    position: absolute;
+    top:9100px;
+    width: -1px;
+    height: -1px;
+    left:4300px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug25{
+    z-index: 1;
+    position: absolute;
+    top:9200px;
+    width: -1px;
+    height: -1px;
+    left:4000px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+.krug26{
+    z-index: 1;
+    position: absolute;
+    top:9300px;
+    width: -1px;
+    height: -1px;
+    left:3700px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}.krug27{
+    z-index: 1;
+    position: absolute;
+    top:9400px;
+    width: -1px;
+    height: -1px;
+    left:3400px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+
+
+.krug28{
+    z-index: 1;
+    position: absolute;
+    top:8300px;
+    width: -1px;
+    height: -1px;
+    left:1500px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug29{
+    z-index: 1;
+    position: absolute;
+    top:8400px;
+    width: -1px;
+    height: -1px;
+    left:1200px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug30{
+    z-index: 1;
+    position: absolute;
+    top:8500px;
+    width: -1px;
+    height: -1px;
+    left:900px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug31{
+    z-index: 1;
+    position: absolute;
+    top:8600px;
+    width: -1px;
+    height: -1px;
+    left:600px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug32{
+    z-index: 1;
+    position: absolute;
+    top:8700px;
+    width: -1px;
+    height: -1px;
+    left:300px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug33
+{
+    z-index: 1;
+    position: absolute;
+    top:8800px;
+    width: -1px;
+    height: -1px;
+    left:0px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 45px white;}
+    .krug34{
+    z-index: 1;
+    position: absolute;
+    top:8900px;
+    width: -1px;
+    height: -1px;
+    left:300px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug35{
+    z-index: 1;
+    position: absolute;
+    top:8800px;
+    width: -1px;
+    height: -1px;
+    left:600px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug36{
+    z-index: 1;
+    position: absolute;
+    top:8700px;
+    width: -1px;
+    height: -1px;
+    left:900px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug37{
+    z-index: 1;
+    position: absolute;
+    top:8600px;
+    width: -1px;
+    height: -1px;
+    left:1200px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+}
+.krug38{
+    z-index: 1;
+    position: absolute;
+    top:8500px;
+    width: -1px;
+    height: -1px;
+    left:1500px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+.krug45 {
+    z-index: 1;
+    position: absolute;
+    top:9000px;
+    width: -1px;
+    height: -1px;
+    left:0px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;
+} 
+
+.krug39
+{
+    z-index: 1;
+    position: absolute;
+    top:8700px;
+    width: -1px;
+    height: -1px;
+    left:1500px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+    .krug40
+{
+    z-index: 1;
+    position: absolute;
+    top:8800px;
+    width: -1px;
+    height: -1px;
+    left:1200px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+        .krug41
+{
+    z-index: 1;
+    position: absolute;
+    top:8900px;
+    width: -1px;
+    height: -1px;
+    left:900px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+        .krug42
+{
+    z-index: 1;
+    position: absolute;
+    top:9000px;
+    width: -1px;
+    height: -1px;
+    left:600px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+      .krug43
+{
+    z-index: 1;
+    position: absolute;
+    top:9100px;
+    width: -1px;
+    height: -1px;
+    left:300px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+      .krug44
+{
+    z-index: 1;
+    position: absolute;
+    top:9200px;
+    width: -1px;
+    height: -1px;
+    left:0px;
+    border-radius:100%;
+    background-color:black;
+    box-shadow: 100px 100px 150px 60px #4d1f75;}
+.text{
+position:absolute;
+}
+   .krug44
+{
+    z-index: 1;
+    position: absolute;
+    top:6500px;
+    width: 1000px;
+    height: 1000px;
+    left:-1000px;
+    border-radius: 10%;
+    background-color:white;
+    box-shadow: -100px 100px 200px 60px white;
+    rotate:200deg;
+}
